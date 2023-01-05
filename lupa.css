@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header {
+    background-color: #2e7375;
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.head {
+    width: 100%;
+    height: 100%;
+}
+#logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 2px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+}
+li {
+    float: left;
+    padding: 35 15 20 15;
+}
+li:hover {
+    background-color: #f3a7ad;
+    margin-top: 0.4%;
+    font-size: 110%;
+    border-radius: 8px;
+}
+
+/* CAPA DO SITE */
+#imagem_fundo {
+    background: url("diversidade.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: rgb(3, 53, 34);
+    padding-top: 22%;
+    font-size: 70px;
+    line-height: 0.6;
+    font-family: Arial;   
+}
+#subtitulo {
+    color: rgb(7, 77, 50);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid rgb(78, 182, 142);
+    text-shadow: 1px 1px  rgb(190, 255, 239);
+}
+
+section {
+    padding: 20px;
+    float: left;
+ }
+
+
+/* PRIMEIRA SECTION */
+#eurocentrismo { 
+    width: 97%;
+    text-align: left;
+    color: black;
+    /* float: left; */
+}
+#configura {
+    width: 55%;
+    text-align: left;
+    color: black;
+    float: right;
+}
+#paragra {
+    text-indent: 50px;
+    line-height: 28px;
+    width: 100%;
+}
+#paragrafe {
+    text-indent: 50px;
+    line-height: 28px;
+    width: 40%;
+    float: left;
+    display: flex;
+    margin-top: -0.2%;
+}
+#para {
+    text-indent: 50px;
+    line-height: 28px;
+    width: 100%;
+    float: left;
+    display: flex;
+    margin-top: -0.2%;
+    margin-right: 2%;
+}
+#grafo {
+    text-indent: 50px;
+    line-height: 28px;
+    width: 100%;
+    float: left;
+    display: flex;
+    margin-top: -0.2%;
+    margin-right: 2%;
+}
+
+#continente {
+    width: 55%;
+    float: right;
+    margin-top: -0.2%;
+    margin-left: 1.5%;
+    margin-right: 1%;
+}
+
+#contin_img {
+    border: #2e7375;
+    border-style: solid;
+    width: 95%;
+    height: 65%;
+}
+
+
+/* SEGUNDA SECTION */
+#secao {
+    width: 58.8%;
+    float: center;
+    place-items: center;
+    display: flex;
+}
+#items-wrapper {
+    width: 100%;
+    place-items: center;
+    float: center;
+    margin-right: 20%;
+    margin-left: 32%;
+}
+#items {
+    display: flex;
+    overflow-x: auto;
+}
+.item {
+    flex: none;
+    width: 101%;
+    height: 100%;
+}
+#config {
+    background-color: #f7f7f7;
+    width: 97%;
+    float: center;
+}
+
+
+/* TERCEIRA SECTION */
+#paragrafs {
+    text-indent: 50px;
+    line-height: 28px;
+    width: 60%;
+    float: left;
+    display: flex;
+    margin-top: -0.2%;
+}
+#annette {
+    width: 97%;
+}
+#filo {
+    width: 35%;
+    float: right;
+    margin-top: -0.2%;
+    margin-left: 1.5%;
+    margin-right: 1%;
+}
+#annette_img {
+    border: #2e7375;
+    border-style: solid;
+    width: 100%;
+    height: 75%;
+}
+#pare {
+    line-height: 28px;
+    width: 100%;
+    float: left;
+    display: flex;
+    margin-top: -1%;
+    margin-right: 2%;
+}
+
+/* QUARTA SECTION */
+.destaque {
+    background-color: #f7f7f7;
+    width: 97%;
+}
+#obra_img {
+    border: #2e7375;
+    border-style: solid;
+    width: 100%;
+    height: 52%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #f3a7ad;
+    float: left;
+    width: 100%;
+    height: 70%;
+    color: #c44c56;
+    margin-bottom: 0%;
+}
+.imagemnos {
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    border: #2e7375;
+    border-style: dotted;
+    border-radius: 8px;
+}
+
+
+
+
+/* CONFIGURAÇÕES GERAIS */
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.colune {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.um {
+    width: 100%;
+    /* margin-right: 5%; */
+}
+.dois {
+    width: 40%;
+}
+.cinco {
+    width: 15%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.central {
+    text-align: center;
+    margin-top: -7%
+}
+.topo {
+    margin-top: 0%;
+}
