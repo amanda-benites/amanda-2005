@@ -42,6 +42,9 @@ li:hover {
     font-size: 110%;
     border-radius: 8px;
 }
+a {
+    text-decoration: none;
+}
 
 /* CAPA DO SITE */
 #imagem_fundo {
